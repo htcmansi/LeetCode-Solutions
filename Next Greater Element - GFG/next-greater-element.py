@@ -4,15 +4,17 @@
 class Solution:
     def nextLargerElement(self,arr,n):
         stack = []
-        result = [-1] * n
+        result = [-1] * len(arr)
+    
+        for i in range(len(arr)-1, -1, -1):
+            while stack and stack[-1] <= arr[i]:
+                stack.pop()
         
-        for i in range(n):
-            while stack and arr[i] > arr[stack[-1]]:
-                index = stack.pop()
-                result[index] = arr[i]
-            
-            stack.append(i)
+            if stack:
+                result[i] = stack[-1]
         
+            stack.append(arr[i])
+    
         return result
 
 
