@@ -5,8 +5,7 @@ class Solution:
     
     #Function is to check whether two strings are anagram of each other or not.
     def isAnagram(self,a,b):
-        return sorted(a) == sorted(b) 
-
+        return sorted(a)==sorted(b)
 
 #{ 
  # Driver Code Starts
