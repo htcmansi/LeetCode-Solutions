@@ -4,4 +4,4 @@ class Solution:
         while x<n:
             x*=4
         return x==n
-        
+    
