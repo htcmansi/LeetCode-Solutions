@@ -1,3 +1,3 @@
-# LeetCode Practice
+## LeetCode Practice
 Collection of LeetCode questions to ace the coding interview.  
     
