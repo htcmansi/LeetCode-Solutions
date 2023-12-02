@@ -9,7 +9,6 @@ class Solution:
                     freq[c] += 1
                 else:
                     freq[c] = 1
-
             for c in word:
                 if c not in chars:
                     formed = False
