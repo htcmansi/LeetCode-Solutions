@@ -3,8 +3,8 @@ class Solution:
         r=len(matrix)
         c=len(matrix[0])
         for value in range(c):
-            t=[[0 ]*r for value in range(c)]
+            res=[[0 ]*r for value in range(c)]
         for i in range(r):
             for j in range(c):
-                t[j][i]=matrix[i][j]      
-        return t
+                res[j][i]=matrix[i][j]      
+        return res
