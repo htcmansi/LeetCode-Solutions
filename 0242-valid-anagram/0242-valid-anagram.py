@@ -1,8 +1,7 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        if sorted(s)==sorted(t):
+        s1=sorted(s)
+        t1=sorted(t)
+        if s1==t1:
             return True
-        else:
-            return False
-        
-        
+        return False
