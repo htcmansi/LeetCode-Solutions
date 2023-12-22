@@ -1,13 +1,8 @@
 class Solution:
     def isFascinating(self, n: int) -> bool:
-        concatenated = str(n) + str(2 * n) + str(3 * n)
-
-        if '0' in concatenated:
-            return False
-        if len(concatenated)>9:
-            return False
-        for i in range(1,10):
-            if str(i) not in concatenated :
-                return False
-        return True
-        
+        n1=2*n
+        n2=3*n
+        res=str(n)+str(n1)+str(n2)
+        if '0' not in res and set(res)==set('123456789') and len(res)==9:
+            return True
+        return False
