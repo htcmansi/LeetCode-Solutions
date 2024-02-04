@@ -1,4 +1,4 @@
-# Number of factors
+## Number of factors
 ## Easy
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Find the number of factors for a given integer <strong>N</strong>.</span><br>
 &nbsp;</p>
