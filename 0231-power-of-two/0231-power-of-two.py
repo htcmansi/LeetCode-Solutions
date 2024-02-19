@@ -6,6 +6,4 @@ class Solution:
             n//=2
         if n==1:   
             return True
-        else:
-            return False
-        
+        return False
