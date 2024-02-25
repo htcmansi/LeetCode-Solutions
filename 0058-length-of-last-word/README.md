@@ -12,7 +12,7 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> s = "   fly me   to   the moon  "
+<pre><strong>Input:</strong> s = "   fly me    to   the moon  "
 <strong>Output:</strong> 4
 <strong>Explanation:</strong> The last word is "moon" with length 4.
 </pre>
