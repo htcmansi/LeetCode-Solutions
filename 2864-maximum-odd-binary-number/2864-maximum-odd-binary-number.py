@@ -1,9 +1,5 @@
 class Solution:
     def maximumOddBinaryNumber(self, s: str) -> str:
-        c= s.count('1')
-        res=""
-        if c==1:
-            res= "0"*(len(s)- 1)+"1"
-        else:
-            res="1"*(c-1)+"0"*(len(s)-c)+"1"
-        return res
+        sorted_s=sorted(s,reverse=True)
+        sorted_s.append(sorted_s.pop(0))
+        return ''.join(sorted_s)
