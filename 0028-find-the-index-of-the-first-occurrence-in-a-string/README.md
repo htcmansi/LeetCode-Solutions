@@ -11,7 +11,7 @@ The first occurrence is at index 0, so we return 0.
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> haystack = "leetcode", needle = "leeto"
+<pre><strong>Input:</strong> haystack = "leetcode", needle = "leeto" 
 <strong>Output:</strong> -1
 <strong>Explanation:</strong> "leeto" did not occur in "leetcode", so we return -1.
 </pre>
