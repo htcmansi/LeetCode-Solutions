@@ -9,7 +9,7 @@
 0 --&gt; 0
 1 --&gt; 1
 2 --&gt; 10
-</pre>
+</pre> 
 
 <p><strong class="example">Example 2:</strong></p>
 
