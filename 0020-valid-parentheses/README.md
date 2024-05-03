@@ -7,7 +7,7 @@
 	<li>Open brackets must be closed in the correct order.</li>
 	<li>Every close bracket has a corresponding open bracket of the same type.</li>
 </ol>
-
+ 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
