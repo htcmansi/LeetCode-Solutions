@@ -3,6 +3,7 @@ class Solution:
         ans = {}
         for s in strs:
             sorted_s = ''.join(sorted(s))
+            
             if sorted_s in ans:
                 ans[sorted_s].append(s)
             else:
