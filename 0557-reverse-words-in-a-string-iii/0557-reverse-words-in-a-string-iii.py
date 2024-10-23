@@ -3,5 +3,4 @@ class Solution:
         words = s.split()
         rev_words = [word[::-1] for word in words]  
         rev_sentence = " ".join(rev_words)  
-        
         return rev_sentence
