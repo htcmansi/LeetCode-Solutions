@@ -14,4 +14,4 @@ class Solution:
             else:
                 j -= 1;
                 #res = max(l * height[i], res);
-        return res;
+        return res; 
