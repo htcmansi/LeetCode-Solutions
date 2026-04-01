@@ -5,4 +5,4 @@ class Solution(object):
             rem = target - j
             if rem in dec: return [dec[rem], i]
             dec[j] = i
-        
+         
